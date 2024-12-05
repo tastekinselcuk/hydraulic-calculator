@@ -1,0 +1,106 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+package-lock.json
+
+# Build outputs
+/dist
+/dist-ssr
+*.local
+/build
+
+# Testing
+/coverage
+/cypress/videos/
+/cypress/screenshots/
+
+# Cache and Logs
+.cache
+.temp
+*.log
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Vue specific
+*.vue.js
+*.vue.css
+*.vue.map
+
+# Optional: Database files (if you add any in the future)
+*.sqlite
+*.db
+
+# Optional: Generated files
+auto-imports.d.ts
+components.d.ts
+
+# Vite specific
+.vite/
+
+# Optional: PWA assets (if you add PWA in the future)
+dev-dist/
+*.manifest
+service-worker.js
+
+# Optional: i18n generated files (if you use vue-i18n)
+/src/locales/_build/
+/src/locales/**/*.js.map
+
+# Optional: Storybook (if you add it in the future)
+/storybook-static
+
+# Optional: Test coverage
+.nyc_output/
+
+# Optional: Bundle analyzer reports
+stats.html
+bundle-analysis.json
+
+# Temporary files
+*.tmp
+*.temp
+.temp/
+.tmp/
+
+# PDF exports (since you're using jspdf)
+/exports
+*.pdf
